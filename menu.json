@@ -1,4 +1,118 @@
-{
-  "status": true,
-  "message": "Connected"
+
+{ 
+  "version": 15, 
+  "updated": "2027-10-27", 
+  "tabs": [ 
+    { 
+      "name": "AIM", 
+      "categories": [ 
+        { 
+          "name": "Aim", 
+          "column": "left", 
+          "items": [ 
+
+            {"type": "switch", "name": "Aimbot AI", "id": 6}, 
+
+          ] 
+        }, 
+        { 
+          "name": "Aim Settings", 
+          "column": "right", 
+          "items": [ 
+            {"type": "slider", "name": "FOV", "id": 9, "default": 0, "max": 180, "unit": ""}, 
+            {"type": "switch", "name": "Show Fov Radius", "id": 27}, 
+
+
+            
+            {"type": "switch", "name": "Ignore Knock", "id": 22} 
+          ] 
+        } 
+      ] 
+    }, 
+    { 
+      "name": "VISUAL", 
+      "categories": [ 
+        { 
+          "name": "VISUALS", 
+          "column": "left", 
+          "items": [ 
+            {"type": "switch", "name": "Enable Functions", "id": 1}, 
+            {"type": "switch", "name": "Aim Line", "id": 60}, 
+            {"type": "switch", "name": "ESP Alert", "id": 61}, 
+            {"type": "switch", "name": "line", "id": 11}, 
+            {"type": "switch", "name": "Box", "id": 12}, 
+            {"type": "switch", "name": "Name", "id": 21}, 
+            {"type": "switch", "name": "Health", "id": 19}, 
+            {"type": "switch", "name": "Distance", "id": 13}, 
+            
+          ] 
+        }, 
+        { 
+          "name": "ESP CONFIG", 
+          "column": "right", 
+          "items": [ 
+            {"type": "slider", "name": "ESP Color", "id": 16, "default": 0, "max": 9, "unit": ""}, 
+            {"type": "slider", "name": "Aim Line Color", "id": 62, "default": 1, "max": 9, "unit": ""}, 
+            {"type": "slider", "name": "Target Color", "id": 63, "default": 1, "max": 9, "unit": ""}, 
+            {"type": "slider", "name": "Box Type", "id": 17, "default": 0, "max": 3, "unit": ""}, 
+            {"type": "slider", "name": "Line Type", "id": 18, "default": 0, "max": 2, "unit": ""}, 
+            {"type": "slider", "name": "Text Size", "id": 20, "default": 10, "max": 25, "unit": ""},
+            {"type": "text_style", "name": "Text Style", "id": 88}
+          ] 
+        } 
+      ] 
+    }, 
+    { 
+      "name": "MISC", 
+      "categories": [ 
+        { 
+          "name": "EXPLOITS", 
+          "column": "left", 
+          "items": [ 
+            
+            
+            {"type": "switch", "name": "Ghost Hack", "id": 33}, 
+
+            {"type": "switch", "name": "Speed Hack", "id": 25}, 
+            
+            {"type": "switch", "name": "Spin Bot", "id": 29} 
+          ] 
+        }, 
+        { 
+          "name": "SHORTCUTS", 
+          "column": "right", 
+          "items": [ 
+            
+
+            {"type": "switch", "name": "Speed Hack", "id": 101}, 
+            , 
+            {"type": "switch", "name": "Ghost Hack", "id": 104}, 
+
+          ] 
+        } 
+      ] 
+    }, 
+    { 
+      "name": "SETTINGS", 
+      "categories": [ 
+        { 
+          "name": "OWNER", 
+          "column": "left", 
+          "items": [ 
+            {"type": "text", "name": "owner: W!shXcheats"}, 
+            {"type": "text", "name": "Version: 2.4"}, 
+            {"type": "text", "name": "Build: v7a-arm64"}, 
+            {"type": "theme_selector", "name": "Menu Theme"} 
+          ] 
+        }, 
+        { 
+          "name": "LOGIN", 
+          "column": "right", 
+          "items": [ 
+            {"type": "text", "name": "Status: Logged In"} 
+          ] 
+        } 
+      ] 
+    } 
+  ] 
 }
