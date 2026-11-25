@@ -1,7 +1,7 @@
 
 { 
   "version": 15, 
-  "updated": "2027-10-27", 
+  "updated": "2026-10-27", 
   "tabs": [ 
     { 
       "name": "AIM", 
@@ -99,7 +99,7 @@
           "name": "OWNER", 
           "column": "left", 
           "items": [ 
-            {"type": "text", "name": "owner: W!shXcheats"}, 
+            {"type": "text", "name": "owner: WishXcheats"}, 
             {"type": "text", "name": "Version: 2.4"}, 
             {"type": "text", "name": "Build: v7a-arm64"}, 
             {"type": "theme_selector", "name": "Menu Theme"} 
